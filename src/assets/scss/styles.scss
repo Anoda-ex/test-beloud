@@ -1,0 +1,21 @@
+$tealColor: teal;
+
+$body-font-family: 'Inter', 'Roboto', sans-serif;
+
+@use 'vuetify/settings' with (
+  // $button-height: 56px,
+	$body-font-family: $body-font-family,
+	// $color-pack: false,
+);
+html { overflow-y: auto }
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 4px;
+  border: 3px solid white;
+  background: #B5C5D1;
+  border-radius: 12px;
+}
